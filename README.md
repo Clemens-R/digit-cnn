@@ -75,4 +75,5 @@ The CNN model architecture consists of:
 
 ## License
 
-[Add your license information here]
+MIT License
+Feel free to use, adapt and share
