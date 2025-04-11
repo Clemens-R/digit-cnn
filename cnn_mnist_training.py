@@ -73,5 +73,5 @@ model.fit(datagen.flow(x_train, y_train, batch_size = 8), # Generate batches of 
 model.evaluate(x_test, y_test)
 
 # Save the trained model to a file for later use
-model.save("augmented_mnist_cnn_model.h5")
+model.save("mnist_cnn_model.h5")
 print("Model is trained and saved")
