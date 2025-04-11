@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw
 
 # Load the pre-trained CNN model
 # This model was trained on the MNIST dataset with data augmentation
-model = tf.keras.models.load_model("augmented_mnist_cnn_model.h5") 
+model = tf.keras.models.load_model("mnist_cnn_model.h5") 
 
 # Create the main application window
 window = tk.Tk()
